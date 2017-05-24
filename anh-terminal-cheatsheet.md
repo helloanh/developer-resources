@@ -1,5 +1,6 @@
 # Cheatsheet for my everyday work flow at ccc
 
+```bash
 cp –a  
 -	p same permission  
 -	R recursive  
@@ -26,4 +27,4 @@ tar -xvf archive_name.tar.gz
 extract in different directory: tar -xvf archive_name.tar -C /tmp/extract_here/  
 scp name:~/path/to/file  destination/in/you/local   
 sudo service apache2 restart or stop/star or reload  
-
+```
