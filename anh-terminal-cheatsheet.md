@@ -1,5 +1,4 @@
-# Cheatsheet for my everyday work flow at ccc
-
+# Common Everyday Commands
 ```bash
 cp –a  
 -	p same permission  
