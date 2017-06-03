@@ -25,5 +25,12 @@ tar -cvf archive_name.tar directory_to_compress
 tar -xvf archive_name.tar.gz  
 extract in different directory: tar -xvf archive_name.tar -C /tmp/extract_here/  
 scp name:~/path/to/file  destination/in/you/local   
-sudo service apache2 restart or stop/star or reload  
+sudo service apache2 restart or stop/star or reload 
+
+# aws
+[glacer](http://docs.aws.amazon.com/cli/latest/reference/glacier/upload-archive.html)
+#command 
+aws glacier upload-archive --account-id numberer --vault-name anh-mac-os-bak --body fh-cs-coursework-jun-3-2017.tar.gz 
 ```
+
+
